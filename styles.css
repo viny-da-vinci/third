@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #605858;
+    color: rgb(167, 57, 57);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.icons img {
+    width: 24px;
+    margin-left: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 60vh;
+    color: rgb(219, 11, 11);
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin: auto;
+}
+
+.hero button {
+    background-color: #00FF00;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #00cc00;
+}
+
+.featured-products {
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+}
+
+.featured-products h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.price-selector {
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rating {
+    margin: 10px 0;
+    color: #FFD700;
+}
+
+.discount-offers {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.discount-offers h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.offer-slider {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.offer-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.offer-card img {
+    width: 100%;
+    height: auto;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: red;
+}
+
+.discounted-price {
+    color: green;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #8da8ae;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media img {
+    width: 24px;
+    margin: 0 5px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
