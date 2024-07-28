@@ -15,7 +15,7 @@
                 <li><a href="laptops.html">Laptops</a></li>
                 <li><a href="#">Mobile Phones</a></li>
                 <li><a href="#">Accessories</a></li>
-                <li><a href="admin.html">Admin</a></li>
+                <li><a href="admin.html">Admin</a></li> <!-- Added Admin link -->
             </ul>
         </nav>
         <div class="search-bar">
@@ -47,6 +47,7 @@
             <button>Shop Now</button>
         </div>
     </section>
+
     <section class="featured-products">
         <h2>Featured Products</h2>
         <div class="product-grid">
@@ -67,47 +68,10 @@
                 </div>
                 <button onclick="addToCart('Laptop Pro', parseFloat(document.getElementById('price1').value), 1)">Add to Cart</button>
             </div>
-    
-            <div class="product-card">
-                <img src="phone.jpg" alt="Mobile Phone">
-                <h3>Phone Max</h3>
-                <p>Advanced camera and display</p>
-                <div class="price-selector">
-                    <label for="price2">Choose your option:</label>
-                    <select id="price2" onchange="updatePrice(this)">
-                        <option value="800">64GB - $800</option>
-                        <option value="1000">128GB - $1000</option>
-                    </select>
-                </div>
-                <p class="price">$800</p>
-                <div class="rating">
-                    <span>★★★★★</span> (75 reviews)
-                </div>
-                <button onclick="addToCart('Phone Max', parseFloat(document.getElementById('price2').value), 1)">Add to Cart</button>
-            </div>
-    
-            <div class="product-card">
-                <img src="headphones.jpg" alt="Headphones">
-                <h3>Noise Cancelling Headphones</h3>
-                <p>Immersive sound experience</p>
-                <div class="price-selector">
-                    <label for="price3">Choose your option:</label>
-                    <select id="price3" onchange="updatePrice(this)">
-                        <option value="300">Standard - $300</option>
-                        <option value="400">Premium - $400</option>
-                    </select>
-                </div>
-                <p class="price">$300</p>
-                <div class="rating">
-                    <span>★★★★☆</span> (60 reviews)
-                </div>
-                <button onclick="addToCart('Noise Cancelling Headphones', parseFloat(document.getElementById('price3').value), 1)">Add to Cart</button>
-            </div>
-    
+
             <!-- Add more products as needed -->
         </div>
     </section>
-    
 
     <section class="discount-offers">
         <h2>Special Offers</h2>
@@ -125,36 +89,6 @@
                 <p class="original-price">$200</p>
                 <p class="discounted-price">$150</p>
                 <button>Grab the Deal</button>
-            </div>
-        </div>
-    </section>
-
-    <section class="advertisement">
-        <h2>Check Out Our Other Categories</h2>
-        <div class="advert-grid">
-            <div class="advert-card">
-                <img src="laptops-ad.jpg" alt="Laptops">
-                <div class="advert-text">
-                    <h3>Laptops</h3>
-                    <p>Explore our wide range of high-performance laptops.</p>
-                    <a href="laptops.html" class="button">Shop Laptops</a>
-                </div>
-            </div>
-            <div class="advert-card">
-                <img src="phones-ad.jpg" alt="Mobile Phones">
-                <div class="advert-text">
-                    <h3>Mobile Phones</h3>
-                    <p>Discover the latest smartphones with cutting-edge technology.</p>
-                    <a href="#" class="button">Shop Mobile Phones</a>
-                </div>
-            </div>
-            <div class="advert-card">
-                <img src="accessories-ad.jpg" alt="Accessories">
-                <div class="advert-text">
-                    <h3>Accessories</h3>
-                    <p>Find the best accessories to complement your devices.</p>
-                    <a href="#" class="button">Shop Accessories</a>
-                </div>
             </div>
         </div>
     </section>

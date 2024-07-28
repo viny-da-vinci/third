@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptops - TechStore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TechStore</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="laptops.html">Laptops</a></li>
+                <li><a href="#">Mobile Phones</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+        </div>
+        <div class="icons">
+            <a href="#"><img src="user-icon.png" alt="User Account"></a>
+            <a href="#" id="cart-icon"><img src="cart-icon.png" alt="Cart"></a>
+        </div>
+    </header>
+
+    <div id="cart-popup" class="cart-popup">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+            <p>Total: <span id="cart-total-price">$0</span></p>
+            <button id="checkout-button">Checkout</button>
+        </div>
+    </div>
+
+    <section class="laptops">
+        <h2>Our Laptops</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="laptop.jpg" alt="Laptop Pro">
+                <h3>Laptop Pro</h3>
+                <p>Powerful and sleek</p>
+                <a href="laptop-details.html">View Details</a>
+            </div>
+
+            <div class="product-card">
+                <img src="laptop.jpg" alt="Laptop Air">
+                <h3>Laptop Air</h3>
+                <p>Lightweight and powerful</p>
+                <a href="laptop-details.html">View Details</a>
+            </div>
+
+            <!-- Add more laptop cards as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">FAQs</a>
+            <a href="#">Return Policy</a>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+        <div class="contact-info">
+            <p>Address: 123 Tech Street</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: support@techstore.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
